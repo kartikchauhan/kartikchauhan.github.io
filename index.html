@@ -27,6 +27,8 @@
 
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+    <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
     
 </head> 
 
@@ -356,13 +358,22 @@
                 </aside><!--//section-->
                             
                 <aside class="blog aside section">
-                    <div class="section-inner shadow-sm rounded">
+                    <div id="retainable-rss-embed" 
+                        data-rss="https://medium.com/feed/@username"
+                        data-maxcols="3" 
+                        data-layout="grid" 
+                        data-poststyle="inline" 
+                        data-readmore="Read the rest" 
+                        data-buttonclass="btn btn-primary" 
+                        data-offset="-100">
+                    </div>
+                    <!-- <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Latest Blog Posts</h2>
                         <div id="medium-widget"></div>
-                        <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-                        <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@chauhan.kartik25","postsPerLine":1,"limit":4,"picture":"small","fields":["description","author","publishAt"],"ratio":"landscape"}})</script>
+                        <!-- <script src="https://medium-widget.pixelpoint.io/widget.js"></script> -->
+                        <!-- <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@chauhan.kartik25","postsPerLine":1,"limit":4,"picture":"small","fields":["description","author","publishAt"],"ratio":"landscape"}})</script> -->
 
-                    </div>
+                    </div> -->
                 </aside>
                 
                 <!-- <aside class="languages aside section">
