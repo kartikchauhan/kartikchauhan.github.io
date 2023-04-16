@@ -32318,7 +32318,7 @@
       "solid"
     ]
   },
-  "lyft": {
+  "leetcode": {
     "changes": [
       "5.0.0"
     ],
@@ -32330,7 +32330,7 @@
       "brands"
     ],
     "unicode": "f3c3",
-    "label": "lyft",
+    "label": "leetcode",
     "voted": false,
     "svg": {
       "brands": {
@@ -49965,7 +49965,7 @@
         "cabbie",
         "car",
         "car service",
-        "lyft",
+        "leetcode",
         "machine",
         "transportation",
         "travel",

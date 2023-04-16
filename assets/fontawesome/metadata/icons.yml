@@ -11977,10 +11977,10 @@ lungs-virus:
     - solid
   unicode: e067
   voted: false
-lyft:
+leetcode:
   changes:
     - 5.0.0
-  label: lyft
+  label: leetcode
   search:
     terms: []
   styles:
@@ -18592,7 +18592,7 @@ taxi:
       - cabbie
       - car
       - car service
-      - lyft
+      - leetcode
       - machine
       - transportation
       - travel
