@@ -338,8 +338,13 @@ a.dotted-link:hover {
   line-height: 1.5;
 }
 
-.experience .item .title .place {
+.experience .item .title {
   color: #999;
+  font-weight: normal;
+}
+
+.place {
+  color: #666;
   font-weight: normal;
 }
 
@@ -347,7 +352,15 @@ a.dotted-link:hover {
   color: #999;
 }
 
+.place a {
+  color: #666;
+}
+
 .experience .item .title .place a:hover {
+  color: #666666;
+}
+
+.place a:hover {
   color: #666666;
 }
 
